@@ -1,4 +1,21 @@
-A simple command-line application.
+Майнер MHCoin, написанный на Dart.
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+## Установка
+
+Скачивайте и устанавливаете <a href="https://dart.dev/get-dart">Dart</a>, скачайте последний релиз и запустите:
+
+`dart run mhcoin.dill`
+
+Далее вводите юзернейм, выбираете сложность и майнинг начнется.
+
+## Сборка
+
+Скачивайте и устанавливаете <a href="https://dart.dev/get-dart">Dart</a>, затем:
+
+```
+git clone https://github.com/AlianaBasil/MHCoin
+cd mhcoin
+dart pub upgrade
+dart build *variant* bin/mhcoin.dart
+dart run bin/mhcoin.*
+```
